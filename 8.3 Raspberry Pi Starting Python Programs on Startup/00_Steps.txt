@@ -1,0 +1,8 @@
+sudo nano /etc/rc.local
+
+# Add the command that you are targeting.
+
+Add before exit 0
+
+python3 /home/pi/03_GPIO_PWM_Pulse.py &
+python3 /home/pi/03_blink_thread.py &

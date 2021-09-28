@@ -1,0 +1,71 @@
+# Print Working Directory (pwd) - shows where the terminal is located in the file system of the Raspberry Pi
+pwd
+
+# List the files and folders/directory of the current location
+ls
+
+# Change location to Desktop folder
+cd Desktop
+
+# Creates a blank file named myfile.txt
+touch myfile.txt
+
+# Deletes or removes myfile.txt
+rm myfile.txt
+
+# Opens the terminal text editor nano
+nano myfile.txt
+
+# Clears the terminal
+clear
+
+# Copy's myfile.txt to myfile2.txt
+cp myfile.txt to myfile2.txt
+
+# Create a folder named myfolder
+mkdir myfolder
+
+# Creates folders named myfolder2 and myfolder3 in one command
+mkdir myfolder2 myfolder3
+
+# Copies myfile.txt inside the folder myfolder
+cp myfile.txt myfolder
+
+# Change location of terminal inside myfolder
+cd myfolder
+
+# Prints the contents of a file in the terminal
+cat myfile.txt
+
+# Change directory to the parent folder of the current terminal location
+cd ..
+
+# Deletes an empty folder
+rmdir myfolder2
+
+# Moves the file myfile.txt inside the folder myfolder3
+mv myfile.txt myfolder3
+
+# List the files and folders inside the folder myfolder3
+ls myfolder3
+
+# Deletes the file and folders inside the folder3, and then deletes also folder3
+rm -r myfolder3
+
+# Displays the purpose and options of the command.
+# [command] --help
+rm --help
+
+# Displays the network configuration
+ifconfig
+
+# Displays the manual of the command
+# man [command]
+# Press 'q' to exit the manual
+man ls
+
+# Reboots the Raspberry Pi
+sudo reboot
+
+# Shut down the Raspberry Pi
+sudo halt
