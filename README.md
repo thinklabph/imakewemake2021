@@ -1,4 +1,4 @@
-# IMakeWeMake2020
+# IMakeWeMake2021
 
 Contents in this site are the codes for ImakeWeMake 2021 training videos. If you have any questions, please feel free to send an email via imakewemake2021 (at) thinklab.ph
 
